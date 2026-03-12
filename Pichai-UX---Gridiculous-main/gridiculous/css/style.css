@@ -1,0 +1,16 @@
+body, html {
+    height:100%;
+    margin:0px;
+}
+
+.gridView {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* Class for any element that is being edited */
+.editing {
+    resize: both;
+    overflow:auto;
+}
